@@ -1,16 +1,22 @@
 # Sales Multi-Agent System
 
-A production-ready AI-driven multi-agent system for sales lead qualification
-and follow-up orchestration.
+This project demonstrates a production-ready AI-driven multi-agent system
+for sales lead qualification and follow-up orchestration.
 
-## Agents
+## Architecture
 - Lead Parsing Agent
-- Lead Scoring Agent
+- Lead Scoring Agent (Long-chain reasoning)
 - Follow-up Strategy Agent
-- Human Handoff Agent
+- Human Handoff Decision Agent
 - Orchestrator
 
-## Run
+## Features
+- Automatic lead understanding
+- AI-based scoring (0–100)
+- Dynamic follow-up generation
+- Human-in-the-loop escalation
+
+## Usage
 ```bash
 pip install -r requirements.txt
 export OPENAI_API_KEY=your_key
